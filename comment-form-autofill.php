@@ -1,10 +1,11 @@
 <?php
 /**
- * Plugin Name: Comment form autofill
- * Description: Autofill comment form fields by URL parameters.
- * Version:     1.0
- * Author:      Jory Hogeveen
- * Author URI:  https://www.keraweb.nl
+ * Plugin Name:       Comment form autofill
+ * Description:       Autofill comment form fields by URL parameters.
+ * Version:           1.0
+ * Author:            Jory Hogeveen
+ * Author URI:        https://www.keraweb.nl
+ * GitHub Plugin URI: JoryHogeveen/comment-form-autofill
  */
 
 if ( ! defined ( 'ABSPATH' ) ) {
