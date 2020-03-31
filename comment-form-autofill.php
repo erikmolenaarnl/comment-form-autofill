@@ -5,6 +5,7 @@
  * Version:           1.0
  * Author:            Jory Hogeveen
  * Author URI:        https://www.keraweb.nl
+ * Text Domain:       comment-form-autofill
  * GitHub Plugin URI: JoryHogeveen/comment-form-autofill
  */
 
