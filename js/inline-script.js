@@ -64,6 +64,14 @@ jQuery( function( $ ) {
 				$this.val( getUrlParam( name, value ) );
 			}
 		} );
+
+		var rating = $this.find( '#rating' );
+		if ( rating.length ) {
+			$( window ).load( function () {
+				var value = rating.val();
+				$this.find( '.star-' + value ).click();
+			} );
+		}
 	} );
 
 	function getUrlParam( parameter, default_value ) {
