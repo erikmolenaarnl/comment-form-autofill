@@ -1,5 +1,6 @@
 jQuery( function( $ ) {
-	var url_vars = [];
+	var url_vars = [],
+	    $window  = $( window );
 
 	window.location.search.replace(
 		/[?&]+([^=&]+)=([^&]*)/gi,
@@ -67,7 +68,7 @@ jQuery( function( $ ) {
 
 		var rating = $this.find( '#rating' );
 		if ( rating.length ) {
-			$( window ).load( function () {
+			$window.load( function () {
 				var value = rating.val();
 				$this.find( '.star-' + value ).click();
 			} );
